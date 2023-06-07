@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://cdn.broadstreetads.com/init-2.min.js"></script>
+<script>broadstreet.watch({ networkId: 8302 })</script>
+<style>
+  /* Parent container */
+  .page-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #5A5A58;
+    min-height: 100vh; 
+    justify-content: center; 
+    align-items: center;
+    width: 100%;
+  }
+  
+  /* Article */
+  article {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #5A5A58;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  /* header ad alignment */
+  .header img,
+  .header-ad-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Header ad container */
+  .header-ad-container {
+    flex-grow: 1;
+    padding: 0 20px;
+    box-sizing: content-box;
+    background-color: #5A5A58;
+    justify-content: center;
+    overflow-y: auto;
+  }
+  
+  /* Content container */
+  .content-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Left-hand content */
+  .left-content {
+    width: 60%;
+    padding: 20px;
+  }
+  
+  /* Left-hand content - tablet */
+  @media (max-width: 1023px) {
+    .left-content {
+      width: 60%;
+      padding: 20px;
+    }
+  }
+  
+  /* Left-hand content - mobile */
+  @media (max-width: 767px) {
+    .left-content {
+      width: 95%;
+      padding: 20px;
+    }
+  }
+  
+  /* Right-hand ad container - desktop and tablet */
+  .right-ad-container {
+    width: 370px;
+    padding: 0 20px;
+    box-sizing: content-box;
+    background-color: #5A5A58;
+    overflow-y: auto;
+  }
+  
+  /* Right-hand ad container - tablet */
+  @media (max-width: 1023px) {
+    .right-ad-container {
+      width: 220px;
+      padding: 0 10px;
+    }
+  }
+
+  /* Right-hand ad container - mobile */
+  @media (max-width: 767px) {
+    .right-ad-container {
+      display: none;
+    }
+  }
+
+  /* Ad tags */
+  broadstreet-zone {
+    width: 100%;
+    padding-right: 20px; /* Padding for desktop */
+    box-sizing: border-box;
+  }
+  
+  /* Ad tags - tablet */
+  @media (max-width: 1023px) {
+    broadstreet-zone {
+      width: 100%;
+      padding-right: 10px; /* Padding for tablet */
+    }
+  }
+</style>
+</head>
+<body>
+<div class="page-container">
+  <div class="header">
+    <!-- Header ad container -->
+    <div class="header-ad-container">
+      <!-- Header ad tag goes here -->
+      <!-- TEST_NEW_AD_SERVER Headline Banner Homepage - Desktop and Mobile -->
+      <broadstreet-zone zone-id="152034"></broadstreet-zone>
+    </div>
+  </div>
+  <div class="content-container">
+    <div class="left-content">
+      <!-- Left-hand side content goes here -->
+      <article>
+        <h2>Hasbro Gaming wonderland launches at Changi Airport’s T3 for June holidays</h2>
+        <p style="text-align:center;"><img src="https://d24chjhol3kq77.cloudfront.net/trbusiness.com/wp-content/uploads/2023/06/Changi-Airport-Hasbro-Gaming4.jpg" alt="Changi-Airport-Hasbro-Gaming4" style="width: 460px; height: 306px;"></p>
+        <p>The departure hall in Changi Airport’s Terminal 3 has been transformed into a Hasbro Gaming 'wonderland of Running from 26 May to 16 July, the Hall of Games brings to life phygital versions of classic favorites including Monopoly, Hungry Hungry Hippos, Twister, The Game of Life and Guess Who?, complete with a whimsical playground, top photo spots, and Changi-exclusive premiums.</p>
+        <p>One free Gamer Pass can be redeemed with a minimum spend of S$50 (or S$80 in the supermarket) in a single receipt at participating outlets in the public areas of Terminals 1 to 4 (excluding Jewel Changi Airport).</p>
+        <p>Visitors can redeem an additional free pass with payment by Changi Pay or Mastercard. Alternatively, Gamer Passes can be purchased for S$5 each.</p>
+      </article>
+    </div>
+    <br>
+    <div class="right-ad-container">
+      <!-- Ad container for the right-hand side goes here -->
+      <div>
+        <!-- TEST_NEW_AD_SERVER_330x600 SKYSCRAPER 1 HOMEPAGE -->
+        <broadstreet-zone zone-id="152033"></broadstreet-zone>
+      </div>
+      <br>
+      <!-- Additional ad tags for the right-hand side can be added here -->
+      <div>
+        <!-- TEST_NEW_AD_SERVER_330x600 SKYSCRAPER 1 HOMEPAGE -->
+        <broadstreet-zone zone-id="152033"></broadstreet-zone>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
